@@ -74,6 +74,8 @@ html{
     font-size: 1.68rem;
     margin-right: 0.4rem;
 }
+
+
 .link-btn:first-child{
     background: #d50000;
     box-shadow: 0 0 5px #d50000,
@@ -81,35 +83,44 @@ html{
                 0 0 15px #d50000,
                 0 0 30px #d50000;
 }
+
 .link-btn:nth-child(2){
+    background: #00e701;
+    box-shadow: 0 0 5px #00e701,
+                0 0 10px #00e701,
+                0 0 15px #00e701,
+                0 0 30px #00e701;
+}
+
+.link-btn:nth-child(3){
     background: #8000d5;
     box-shadow: 0 0 5px #8000d5,
                 0 0 10px #8000d5,
                 0 0 15px #8000d5,
                 0 0 30px #8000d5;
 }
-.link-btn:nth-child(3){
+.link-btn:nth-child(4){
     background: #ff8c00;
     box-shadow: 0 0 5px #ff8c00,
                 0 0 10px #ff8c00,
                 0 0 15px #ff8c00,
                 0 0 30px #ff8c00;
 }
-.link-btn:nth-child(4){
+.link-btn:nth-child(5){
     background: #000000;
     box-shadow: 0 0 5px #000000,
                 0 0 10px #000000,
                 0 0 15px #000000,
                 0 0 30px #000000;
 }
-.link-btn:nth-child(5){
+.link-btn:nth-child(6){
     background:#009cd5;
     box-shadow: 0 0 5px #009cd5,
                 0 0 10px #009cd5,
                 0 0 15px #009cd5,
                 0 0 30px #009cd5;
 }
-.link-btn:nth-child(6){
+.link-btn:nth-child(7){
     background: #fff;
     color: #000000;
     box-shadow: 0 0 5px #fff,
@@ -117,7 +128,7 @@ html{
                 0 0 15px #fff,
                 0 0 30px #fff;
 }
-.link-btn:nth-child(7){
+.link-btn:nth-child(8){
     background: #2f2d31;
     color: #ffffff;
     box-shadow: 0 0 5px #2f2d31,
@@ -157,4 +168,27 @@ html{
         margin-top: 2.6rem;
         position: absolute;
 }
+}
+
+.icon-png {
+    width: 20px; /* Ajusta el ancho según sea necesario */
+    height: 20px; /* Ajusta la altura según sea necesario */
+    margin-right: 8px; /* Espacio entre el ícono y el texto */
+    vertical-align: middle; /* Alinea el ícono con el texto */
+    filter: invert(1); /* Cambia el color del ícono a blanco */
+    transition: filter 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.link-btn {
+    width: 15rem;
+    display: flex;
+    align-items: center; /* Alinea íconos y texto verticalmente */
+    justify-content: center; /* Alinea íconos y texto horizontalmente al centro */
+    background: #009cd5;
+    padding: 0.62rem 0.93rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10rem;
+    margin-bottom: 1.5rem;
+    gap: 10px; /* Espaciado entre el ícono y el texto */
 }
